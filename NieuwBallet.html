@@ -13,6 +13,26 @@
     	<script type="text/javascript">
 			// I start with a simple step.
 			// loadFunction: document.querySelector("html")
+			// or switch from 'top' to 'search' on the top bar menu of the console.
+
+			// ref: https://developers.google.com/web/tools/chrome-devtools/console/utilities#inspect
+			// $0 
+			// $('html')
+			// inspect(document.body)
+			// document.activeElement
+			// document.getElementsByTagName("iframe")
+			// document.querySelector("#mainstage > #stage");
+
+			// on the terminal / command line: 
+			// var frame = document.getElementById("frame1").contentWindow;
+			// cd(frame);
+			// cd(document.getElementsByTagName('iframe')[0]);
+			// https://stackoverflow.com/questions/7961229/is-there-a-way-to-change-context-to-iframe-in-javascript-console
+
+
+			// mapping the mouse on the console: 
+			// monitorEvents($0, "mouse");
+    		// unmonitorEvents($0, "mousemove");
 
         	function Adagio () { 
     		// Italian, or French adage, meaning 'slowly, at ease.'
@@ -129,6 +149,8 @@
 
 			// go to a specific location (max iframe size 3500): 
 			// window.scroll(0, 500);
+			// document.getElementById("iframe").style.height= 5000;
+			// or document.querySelector("#mainstage").style.height= 5000;
 
 			function reEntrée_de_Ballet () {
 				location.reload(); 
@@ -142,6 +164,8 @@
 			}
 
 // more concepts:  Attitude / Tombé / Bravura  / Pas de trois 
+
+
 
 		</script>
 
@@ -239,7 +263,7 @@
 		    top: 1px;
 		    left: 1px; 
 		    font-weight: bold;
-		    font-size:220pt;
+		    font-size:35vw;
 		    margin-top: 0px;
 		    font-family: serif;      
 		    text-shadow: 2px 2px 20px #000000;
