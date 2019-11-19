@@ -7,28 +7,32 @@
   		<meta name="author" content="Joana Chicau">
         <meta charset="UTF-8" />
 
-		<!-- ? https://github.com/colinbdclark/osc.js/ -->
-
+<!-- search queries: 
+	(a body still is taking up just) as much space and time as a body moving - Cunningham.
+-->
     	<script type="text/javascript">
+			// I start with a simple step.
+			// loadFunction: document.querySelector("html")
 
         	function Adagio () { 
     		// Italian, or French adage, meaning 'slowly, at ease.'
     		// slow movements performed with fluidity and grace;
 			// featuring slow, controlled movements.
-			var myDiv = document.querySelector("html");
-  			if (myDiv.className == 'Fluid') {
-   			 	myDiv.className = 'notFluid';
-  			} else {
+				var myDiv = document.querySelector("html");
+  				if (myDiv.className == 'Fluid') {
+   			 		myDiv.className = 'notFluid';
+  				} else {
     			myDiv.className = 'Fluid';
-  			}
+  				}
 			}
 
 			function Face () {
-			// En face indicates facing something directly, generally the audience.
+			// en face indicates facing something directly, generally the audience.
 		 		(document.querySelector("#text01").style.display="initial")
 			}
 
 			function Derrière () {
+			// derrière — literally 'behind'
 		 		(document.querySelector("#text01").style.display="none")
 			}
 			
@@ -41,8 +45,18 @@
         	}
 			}
 
+			function Arrière (){
+			// meaning'backwards'— a movement towards the back,as opposed to en avant
+			window.history.back()		
+			}
+
+			function Avant (){
+			// meaning'backwards'— a movement towards the back,as opposed to en avant
+			window.history.forward()		
+			}
+
 			function Fondu () {
-			// literally 'melted.'
+			// or 'melted.'
 			var myDiv = document.querySelector("body");
   			if (myDiv.className == 'color') {
    			 	myDiv.className = 'nocolor';
@@ -50,6 +64,8 @@
     			myDiv.className = 'color';
   			}
 			}
+
+			//heavy and light, little and big, all related, yet each affecting all the others.
 
 			function Écarté () {
 			// literally 'spread,' as in 'separated.'
@@ -64,7 +80,7 @@
 			function Pause_Allongé () { clearInterval(auto); 
 			} 
 			// setInterval("Allongé()", 600)
-			//clearInterval(26)
+			// clearInterval(26)
 
 			function Pirouette () {
 		    var turn = document.getElementById("stage"),
@@ -74,20 +90,67 @@
 		    deg = (deg + 10) % 360
 		    }, 60); 
 		    } 
-			function Pause_Pirouette () { clearInterval(timing); 
+			function Pause_Pirouette () { 
+				clearInterval(timing); 
 			} 
 
+			// define the stage:
+			// document.querySelector("html");
+
+			// the Corps de Ballet
+			// select all links;				
+			// l = document.querySelectorAll("a");
+
+
+			function Danseuse_100 () {
+			// click one link;
+			l[100].click();
+			}
+
+			function Danseuse_20 () {
+			// click one link;
+			l[20].click();
+			}
+
+			function Temps_Lié () {
+			// time linked
+			}
+
+			function à_Terre () {
+			// 'on theground'; sroll to the bottom of the page (iframe 3500):
+			window.scrollTo(0,document.body.scrollHeight);
+			}
+
+			function Temps_Levé () {
+			// 'time raised'
+  			document.body.scrollTop = 0; // Safari
+  			document.documentElement.scrollTop = 0; // Chrome, Firefox, IE
+			}
+
+			// go to a specific location (max iframe size 3500): 
+			// window.scroll(0, 500);
+
+			function reEntrée_de_Ballet () {
+				location.reload(); 
+			}
+
 			function Offstage () {
-		    //or document.querySelector("html").style.backgroundColor="black";   
+		    //or document.querySelector("html").style.backgroundColor="black"; 
+		    //'unnecessary and balletic' movements   
 			document.body.innerHTML = '';
 			document.head.innerHTML = '';
 			}
 
-// more concepts: Temps levé; Attitude / à Terre / Tombé / Bravura / Variation / Corps de ballet / Danseuse
+// more concepts:  Attitude / Tombé / Bravura  / Pas de trois 
+
 		</script>
 
 		<style type="text/css">
-	
+
+        html {
+            overflow: scroll;
+        }
+
 			.Fluid {
 			animation: Slow 30s infinite; 
     		-webkit-animation: Slow 30s infinite; 
@@ -193,7 +256,7 @@
     class="regular"
     title="example"
     width="100%"
-    height="900"
+    height="3500"
     frameborder="0"
     scrolling="yes"
     margin="0"
