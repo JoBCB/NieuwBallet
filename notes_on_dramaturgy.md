@@ -14,6 +14,8 @@ __Elements at play__
 * Unpredictability of the results;
 * Non-linearity of the hyperlinks; 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
   
 ### Igor Stravinsky - The Rite of Spring (1913)
 
@@ -46,7 +48,6 @@ _Choreography:_
 * [Le Sacre du Printemps Pina Bausch 1978](https://www.youtube.com/watch?v=yJd05A297us)
 * [Le Sacre du Printemps Sasha Waltz](https://www.youtube.com/watch?v=4zJhVgT1FtI)
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 
 ### Pyotr Ilyich Tchaikovsky - Swan Lake (1876) 
