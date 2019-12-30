@@ -1,6 +1,13 @@
 _notes_on_dramaturgy_
 
 
+Different narrative elements:
+
+	* calling of functions and it definitions;
+	* content of search (search queries, accessed links)
+	* musical hints;
+  
+  
 ## Igor Stravinsky - The Rite of Spring (1913)
 
 > “One day [in 1910], when I was finishing the last pages of L'Oiseau de Feu in St Petersburg, I had a fleeting vision ... I saw in my imagination a solemn pagan rite: sage elders, seated in a circle, watching a young girl dance herself to death. They were sacrificing her to propitiate the god of Spring. Such was the theme of the Sacre du Printemps". — Stravinsky
