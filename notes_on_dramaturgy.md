@@ -1,19 +1,5 @@
 _notes_on_dramaturgy_
 
-## Pyotr Ilyich Tchaikovsky - Swan Lake (1876) 
-
-### Structure:
-
-* Swan Lake is generally presented in either four acts, four scenes (primarily outside Russia and Eastern Europe).
-* Focus on the idea of “Variation” — alternative endings;
-* Mood board: enchanting; elegant; poetic melancholy; shifts of energy allegro/ moderato; humoristic tonality; 
-
-### References:
-
-* [Tchaikovsky: Swan Lake, Bolshoi Ballet (Moscow 1989)](https://www.youtube.com/watch?v=cdq5Rw9SS-8)
-* [Matthew Bourne's Ballet Clips- "Swan Lake"](https://www.youtube.com/watch?v=ChOnhxe-Vm0)
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ## Igor Stravinsky - The Rite of Spring (1913)
 
@@ -45,4 +31,20 @@ __Choreography:__
 * [gor Stravinsky Le Sacre du Printemps Vaslav Nijinsky Version 1913 Ballett Mariinski Theater](https://www.youtube.com/watch?v=EvVKWapctX4)
 * [Le Sacre du Printemps Pina Bausch 1978](https://www.youtube.com/watch?v=yJd05A297us)
 * [Le Sacre du Printemps Sasha Waltz](https://www.youtube.com/watch?v=4zJhVgT1FtI)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+## Pyotr Ilyich Tchaikovsky - Swan Lake (1876) 
+
+### Structure:
+
+* Swan Lake is generally presented in either four acts, four scenes (primarily outside Russia and Eastern Europe).
+* Focus on the idea of “Variation” — alternative endings;
+* Mood board: enchanting; elegant; poetic melancholy; shifts of energy allegro/ moderato; humoristic tonality; 
+
+### References:
+
+* [Tchaikovsky: Swan Lake, Bolshoi Ballet (Moscow 1989)](https://www.youtube.com/watch?v=cdq5Rw9SS-8)
+* [Matthew Bourne's Ballet Clips- "Swan Lake"](https://www.youtube.com/watch?v=ChOnhxe-Vm0)
 
