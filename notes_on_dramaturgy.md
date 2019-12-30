@@ -1,14 +1,14 @@
-_notes_on_dramaturgy_
+_Notes_on_dramaturgy_
 
 
-_Narrative elements_
+__Narrative elements__
 
 * Calling of functions and it definitions;
 * Content of search (search queries, accessed links);
 * Musical hints;
 	
 
-_Elements at play_
+__Elements at play__
 
 * Real time information display; 
 * Unpredictability of the results;
