@@ -1,12 +1,19 @@
 _notes_on_dramaturgy_
 
 
-Different narrative elements:
+_Narrative elements_
 
-	* calling of functions and it definitions;
-	* content of search (search queries, accessed links)
-	* musical hints;
-  
+* Calling of functions and it definitions;
+* Content of search (search queries, accessed links);
+* Musical hints;
+	
+
+_Elements at play_
+
+* Real time information display; 
+* Unpredictability of the results;
+* Non-linearity of the hyperlinks; 
+
   
 ## Igor Stravinsky - The Rite of Spring (1913)
 
@@ -18,8 +25,8 @@ Different narrative elements:
 
 ### Structure:
 
-* Part I: L'Adoration de la Terre (Adoration of the Earth)
-* Part II: Le Sacrifice (The Sacrifice)
+* Part I: L'Adoration de la Terre (Adoration of the Earth);
+* Part II: Le Sacrifice (The Sacrifice);
 * Mood board: low music and voice over; abrupt; angular; savage; visceral; earthy; dramatic; mystic;
 
 > “The demonstrations, he says, grew into "a terrific uproar" which, along with the on-stage noises, drowned out the voice of Nijinsky who was shouting the step numbers to the dancers.” … “But music historian Richard Taruskin asserts, "it was not Stravinsky's music that did the shocking. It was the ugly earthbound lurching and stomping devised by Vaslav Nijinsky."”
@@ -28,14 +35,14 @@ Different narrative elements:
 
 __Music:__
 
-* [music](https://www.youtube.com/watch?v=rP42C-4zL3w)
-* [version by Martha Argerich ,Akane Sakai](https://www.youtube.com/watch?v=rtZQicZx1X4)
-* [A Laboratory of Spring , AVANT, Special Issue, Vol. IV, No. 3/2013](http://avant.edu.pl/wp-content/uploads/Timothy-D-Taylor-Stravinsky-and-Others1.pdf)
+* [Original music](https://www.youtube.com/watch?v=rP42C-4zL3w)
+* [Version by Martha Argerich, Akane Sakai](https://www.youtube.com/watch?v=rtZQicZx1X4)
+* [A Laboratory of Spring, AVANT, Special Issue, Vol. IV, No. 3/2013](http://avant.edu.pl/wp-content/uploads/Timothy-D-Taylor-Stravinsky-and-Others1.pdf)
 
 __Choreography:__
 
-* [dance score](https://upload.wikimedia.org/wikipedia/en/f/f7/Sacrificialdance.jpg)
-* [gor Stravinsky Le Sacre du Printemps Vaslav Nijinsky Version 1913 Ballett Mariinski Theater](https://www.youtube.com/watch?v=EvVKWapctX4)
+* [Dance score](https://upload.wikimedia.org/wikipedia/en/f/f7/Sacrificialdance.jpg)
+* [Igor Stravinsky Le Sacre du Printemps Vaslav Nijinsky Version 1913 Ballett Mariinski Theater](https://www.youtube.com/watch?v=EvVKWapctX4)
 * [Le Sacre du Printemps Pina Bausch 1978](https://www.youtube.com/watch?v=yJd05A297us)
 * [Le Sacre du Printemps Sasha Waltz](https://www.youtube.com/watch?v=4zJhVgT1FtI)
 
