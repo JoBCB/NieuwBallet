@@ -1,21 +1,21 @@
-__notes_on_dramaturgy__
+_notes_on_dramaturgy_
 
-### Pyotr Ilyich Tchaikovsky - Swan Lake (1876) 
+## Pyotr Ilyich Tchaikovsky - Swan Lake (1876) 
 
-## Structure:
+### Structure:
 
 * Swan Lake is generally presented in either four acts, four scenes (primarily outside Russia and Eastern Europe).
 * Focus on the idea of “Variation” — alternative endings;
 * Mood board: enchanting; elegant; poetic melancholy; shifts of energy allegro/ moderato; humoristic tonality; 
 
-## References:
+### References:
 
 * [Tchaikovsky: Swan Lake, Bolshoi Ballet (Moscow 1989)](https://www.youtube.com/watch?v=cdq5Rw9SS-8)
 * [Matthew Bourne's Ballet Clips- "Swan Lake"](https://www.youtube.com/watch?v=ChOnhxe-Vm0)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-### Igor Stravinsky - The Rite of Spring (1913)
+## Igor Stravinsky - The Rite of Spring (1913)
 
 > “One day [in 1910], when I was finishing the last pages of L'Oiseau de Feu in St Petersburg, I had a fleeting vision ... I saw in my imagination a solemn pagan rite: sage elders, seated in a circle, watching a young girl dance herself to death. They were sacrificing her to propitiate the god of Spring. Such was the theme of the Sacre du Printemps". — Stravinsky
 
@@ -23,7 +23,7 @@ __notes_on_dramaturgy__
 
 > “Butoh maybe a trigger to revolution (the Russian revolution did not begin with Lenin but with Nijinsky)” - MastsumiNeiro
 
-## Structure:
+### Structure:
 
 * Part I: L'Adoration de la Terre (Adoration of the Earth)
 * Part II: Le Sacrifice (The Sacrifice)
@@ -33,13 +33,13 @@ __notes_on_dramaturgy__
 
 ## References:
 
-### Music:
+__Music:__
 
 * [music](https://www.youtube.com/watch?v=rP42C-4zL3w)
 * [version by Martha Argerich ,Akane Sakai](https://www.youtube.com/watch?v=rtZQicZx1X4)
 * [A Laboratory of Spring , AVANT, Special Issue, Vol. IV, No. 3/2013](http://avant.edu.pl/wp-content/uploads/Timothy-D-Taylor-Stravinsky-and-Others1.pdf)
 
-### Choreography:
+__Choreography:__
 
 * [dance score](https://upload.wikimedia.org/wikipedia/en/f/f7/Sacrificialdance.jpg)
 * [gor Stravinsky Le Sacre du Printemps Vaslav Nijinsky Version 1913 Ballett Mariinski Theater](https://www.youtube.com/watch?v=EvVKWapctX4)
