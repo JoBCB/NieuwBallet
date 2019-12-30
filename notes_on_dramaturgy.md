@@ -31,7 +31,7 @@ _notes_on_dramaturgy_
 
 > “The demonstrations, he says, grew into "a terrific uproar" which, along with the on-stage noises, drowned out the voice of Nijinsky who was shouting the step numbers to the dancers.” … “But music historian Richard Taruskin asserts, "it was not Stravinsky's music that did the shocking. It was the ugly earthbound lurching and stomping devised by Vaslav Nijinsky."”
 
-## References:
+### References:
 
 __Music:__
 
