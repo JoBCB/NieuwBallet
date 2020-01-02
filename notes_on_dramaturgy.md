@@ -14,6 +14,12 @@ __Elements at play__
 * Unpredictability of the results;
 * Non-linearity of the hyperlinks; 
 
+
+__Interaction elements__
+
+* Search by voice; 
+* Typing keyboard;
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
   
