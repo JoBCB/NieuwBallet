@@ -1,47 +1,47 @@
 ### unordered list of JS functions & definitions
 
-*Adagio ()* // slow movements performed with fluidity and grace;  'slowly, at ease.', controlled movements.
+__Adagio ()__ // slow movements performed with fluidity and grace;  'slowly, at ease.', controlled movements.
 
-*Face ()*  // en face indicates facing something directly, generally the audience.
+__Face ()__  // en face indicates facing something directly, generally the audience.
       
-*Derrière ()* // derrière — literally 'behind'
+__Derrière ()__ // derrière — literally 'behind'
       
 
-*Breathing ()*
+__Breathing ()__
 
 
-*Avant ()* // meaning'backwards'— a movement towards the back,as opposed to en avant
+__Avant ()__ // meaning'backwards'— a movement towards the back,as opposed to en avant
 
 ⌘ + ] Or ⌘ + Right Arrow	_open the next page in your browsing history for the current tab_
 
 
-*Arrière ()* // meaning'backwards'— a movement towards the back,as opposed to en avant
+__Arrière ()__ // meaning'backwards'— a movement towards the back,as opposed to en avant
 
 ⌘ + [ Or ⌘ + Left Arrow	_open the previous page in your browsing history for the current tab_
 
-*Fondu ()* // or 'melted.'
+__Fondu ()__ // or 'melted.'
 		
-*Écarté ()* // literally 'spread,' as in 'separated.'
+__Écarté ()__ // literally 'spread,' as in 'separated.'
 
 _note_ define the stage: select 'search' iframe; type: document.querySelector("#cnt");
 
-*Pause_Allongé ()* // pause
+__Pause_Allongé ()__ // pause
 
-*Pirouette ()*
+__Pirouette ()__
 
-*Pause_Pirouette ()*
+__Pause_Pirouette ()__
 
-*Danseuse_20 () / Danseuse_50 () / Danseuse_100 () *
+__Danseuse_20 () / Danseuse_50 () / Danseuse_100 ()__
 
 _note_ define the stage: select 'search' iframe; document.querySelector("#rso"); l = document.querySelectorAll("a"); l[20]; l[20].click();
 
-*à_Terre ()*	// 'on theground'; sroll to the bottom of the page (iframe 3500):
+__à_Terre ()__	// 'on theground'; sroll to the bottom of the page (iframe 3500):
 
-*Temps_Levé ()*	// 'time raised'
+__Temps_Levé ()__	// 'time raised'
 
-*reEntrée_de_Ballet ()*
+__reEntrée_de_Ballet ()__
 
-*Offstage ()*
+__Offstage ()__
 
 
 ### Start instructions: 
