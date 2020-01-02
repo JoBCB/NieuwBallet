@@ -37,7 +37,7 @@
         	function Adagio () { 
     		// Italian, or French adage, meaning 'slowly, at ease.'
     		// slow movements performed with fluidity and grace;
-			// featuring slow, controlled movements.
+		// featuring slow, controlled movements.
 				var myDiv = document.querySelector("html");
   				if (myDiv.className == 'Fluid') {
    			 		myDiv.className = 'notFluid';
@@ -55,20 +55,22 @@
 			// derrière — literally 'behind'
 		 		(document.querySelector("#text01").style.display="none")
 			}
-			
-        	function Breathing () { 
-    
-    		if (document.querySelector("body").style.transform=="scale(0.3)") {
-        	(document.querySelector("body").style.transform="scale(4)")
-        	}
-    		else  { (document.querySelector("body").style.transform="scale(0.5)") 
-        	}
+		
+			function Breathing () { 
+    			if (document.querySelector("body").style.transform=="scale(1)") {
+        		(document.querySelector("body").style.transform="scale(4)")
+        		}
+    			else  { (document.querySelector("body").style.transform="scale(1)") 
+        		}
 			}
+			// setInterval("Breathing()", 200)
+			// clearInterval(x)
 
 			function Arrière (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
 			window.history.back()		
 			}
+			// short cut: ⌘ + [ Or ⌘ + Left Arrow
 
 			function Avant (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
@@ -85,8 +87,14 @@
   			}
 			}
 
-			//heavy and light, little and big, all related, yet each affecting all the others.
-
+			// heavy and light, little and big, all related, yet each affecting all the others.
+		
+			// select 'search' iframe;
+			// document.querySelector("#rso");
+			// l = document.querySelectorAll("a");
+			// l[20];
+			// l[20].click();
+		
 			function Écarté () {
 			// literally 'spread,' as in 'separated.'
 			auto = setInterval(function() {
@@ -103,13 +111,13 @@
 			// clearInterval(26)
 
 			function Pirouette () {
-		    var turn = document.getElementById("stage"),
-		    deg = 10;
-		    timing = setInterval(function() {
-		    turn.style.transform = "rotateY(" + deg + "deg)";
-		    deg = (deg + 10) % 360
-		    }, 60); 
-		    } 
+		    	var turn = document.getElementById("stage"),
+		    	deg = 10;
+		    	timing = setInterval(function() {
+		    	turn.style.transform = "rotateY(" + deg + "deg)";
+		    	deg = (deg + 10) % 360
+		    	}, 60); 
+		    	} 
 			function Pause_Pirouette () { 
 				clearInterval(timing); 
 			} 
