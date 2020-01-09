@@ -3,7 +3,7 @@ _Notes_on_dramaturgy_
 
 __Narrative elements__
 
-* Calling of functions and it definitions [find them here](https://github.com/JoBCB/NieuwBallet/blob/master/glossary.md) — motifs as interruption of the music;
+* Calling of functions and it definitions [find them here](https://github.com/JoBCB/NieuwBallet/blob/master/glossary.md) — motifs may work as interruption of the music;
 * Content of search (search queries, accessed links) following the theme of the ballet piece;
 * Musical hints in connection with function naming / motifs;
 * When playing the sound piece uninterrupted simultaneously play videos of ballet performances; 
