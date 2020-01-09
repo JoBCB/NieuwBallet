@@ -3,10 +3,10 @@ _Notes_on_dramaturgy_
 
 __Narrative elements__
 
-* Calling of functions and it definitions [find them here](https://github.com/JoBCB/NieuwBallet/blob/master/glossary.md);
-* Content of search (search queries, accessed links);
-* Musical hints;
-	
+* Calling of functions and it definitions [find them here](https://github.com/JoBCB/NieuwBallet/blob/master/glossary.md) — motifs as interruption of the music;
+* Content of search (search queries, accessed links) following the theme of the ballet piece;
+* Musical hints in connection with function naming / motifs;
+* When playing the sound piece uninterrupted simultaneously play videos of ballet performances; 
 
 __Elements at play__
 
@@ -19,6 +19,14 @@ __Interaction elements__
 
 * Search by voice; 
 * Typing keyboard;
+
+
+__Struture__
+
+* if The Rite of Spring:
+	* divide in two acts: two search queries following the theme of the piece;
+	
+* duration: total 10min;
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
@@ -48,8 +56,10 @@ __References:__
 _Music:_
 
 * [Original music](https://www.youtube.com/watch?v=rP42C-4zL3w)
+* [Stravinsky’s Rite of Spring for two pianos and Interactive Video](https://vimeo.com/149341784)
 * [Version by Martha Argerich, Akane Sakai](https://www.youtube.com/watch?v=rtZQicZx1X4)
 * [A Laboratory of Spring, AVANT, Special Issue, Vol. IV, No. 3/2013](http://avant.edu.pl/wp-content/uploads/Timothy-D-Taylor-Stravinsky-and-Others1.pdf)
+
 
 _Choreography:_
 
