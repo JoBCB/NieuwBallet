@@ -64,6 +64,7 @@
 
 > __Warning ()__ — >  turns background blue; if you click a second time it stops the animation;
 
+> or hit "cmd Q"
 
 [Complete list of short cuts](https://support.google.com/accessibility/answer/157179?hl=en)
 [More on short cuts](http://kurtle.io/2015/10/11/chrome-console-keyboard-shortcuts.html)
