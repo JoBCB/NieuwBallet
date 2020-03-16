@@ -2,28 +2,30 @@
 
 ## — Prepare browser chrome —
 
-> go to chrome settings > privacy and security or to the url chrome://settings/privacy :
+* Go to chrome settings > privacy and security or to the url chrome://settings/privacy :
+
     > Site Settings > Pop-ups and redirects > Select "Allowed" and add the corresponding URL for eg.: "file:///Users/joanachicau/Documents/Project/CodeKlavier/NieuwBallet.html" to Allow;  
+    
     > Appearance > "Remove Show warning before quitting with ⌘Q"
     
-> check if iframe allow plug-in is installed;
+* Check if iframe allow plug-in is installed;
  
 ## — Perform —
 
-> open "NieuwBallet.html" on chrome:
+* Open "NieuwBallet.html" on chrome:
 
-> on the top menu bar go to: View > Developer > Developer Tools or open web console: Command+Shift+C or Command+Option+C (mac)	Control+Shift+C (windows/linux)
+* On the top menu bar go to: View > Developer > Developer Tools or open web console: Command+Shift+C or Command+Option+C (mac)	Control+Shift+C (windows/linux)
 
-> keep the console in a sepparate window —> right side of the screen;
+* keep the console in a sepparate window —> right side of the screen;
 
 > __call function Adagio ()__ 
   > _sound_ smooth intro to the piece; 
 
-> select the NieuwBallet.html window and start by searching the first query, for eg.: "rite" or "spring"
+* Select the NieuwBallet.html window and start by searching the first query, for eg.: "rite" or "spring"
 
 > __Adagio ()__ again to stop animation;
 
-> tab through the search results: until select "News"
+* Tab through the search results: until select "News"
 
 > __à_Terre ()__ —> it will scroll down
 
@@ -32,13 +34,13 @@
 > __Breathe_In ()__ followed by __Breathe_Out ()__
   > _sound_ arising tension; 
 
-> Select a link by using "tab" and "enter"
+* Select a link by using "tab" and "enter"
 
 > __Arrière ()__ — > goes back in search history
 
 > __Avant ()__ — > goes forward in search history
 
-> Inside a webpage you can:
+* Inside a webpage you can:
 
 > __Pirouette ()__ — > make page rotate (if you click twice will go on an infinite loop \^.^/ )
 
@@ -46,7 +48,7 @@
 
 > __Glossary_of_the_Nieuw_Ballet ()__ — > overlays text, to stop call the function __Silence ()__ 
 
-> Open different pop-ups: __DancingWindow01 ()__ — > there are 7;
+* Open different pop-ups: __DancingWindow01 ()__ — > there are 7;
 
 ## Possible ending functions: 
 
