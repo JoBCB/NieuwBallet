@@ -34,10 +34,12 @@
 			// monitorEvents($0, "mouse");
     		// unmonitorEvents($0, "mousemove");
 
+    		// tab only sequence; for example with imagery.
+
         	function Adagio () { 
     		// Italian, or French adage, meaning 'slowly, at ease.'
     		// slow movements performed with fluidity and grace;
-		// featuring slow, controlled movements.
+			// featuring slow, controlled movements.
 				var myDiv = document.querySelector("html");
   				if (myDiv.className == 'Fluid') {
    			 		myDiv.className = 'notFluid';
@@ -46,39 +48,31 @@
   				}
 			}
 
-			function Face () {
-			// en face indicates facing something directly, generally the audience.
-		 		(document.querySelector("#text01").style.display="initial")
-			}
-
 			function Derrière () {
 			// derrière — literally 'behind'
 		 		(document.querySelector("#text01").style.display="none")
 			}
+			
+        	function Breathe_In () { 
+        		document.querySelector("body").style.transform="scale(4)"
+        	}
+
+    		function Breathe_Out () { 
+    			document.querySelector("body").style.transform="scale(1)"
+        	}
 		
-			function Breathing () { 
-    			if (document.querySelector("body").style.transform=="scale(1)") {
-        		(document.querySelector("body").style.transform="scale(4)")
-        		}
-    			else  { (document.querySelector("body").style.transform="scale(1)") 
-        		}
-			}
-			// setInterval("Breathing()", 200)
-			// clearInterval(x)
 
 			function Arrière (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
 			window.history.back()		
 			}
-			// short cut: ⌘ + [ Or ⌘ + Left Arrow
 
 			function Avant (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
 			window.history.forward()		
 			}
 
-			function Fondu () {
-			// or 'melted.'
+			function Warning () {
 			var myDiv = document.querySelector("body");
   			if (myDiv.className == 'color') {
    			 	myDiv.className = 'nocolor';
@@ -87,63 +81,59 @@
   			}
 			}
 
-			// heavy and light, little and big, all related, yet each affecting all the others.
-		
-			// define the stage:
-			// select 'search' iframe;
-			// document.querySelector("#cnt");
-		
+			//heavy and light, little and big, all related, yet each affecting all the others.
+
 			function Écarté () {
 			// literally 'spread,' as in 'separated.'
 			auto = setInterval(function() {
-			if (document.querySelector("#cnt").style.letterSpacing=="-30px") {
-		 		(document.querySelector("#cnt").style.letterSpacing="120px")
+			if (document.querySelector("body").style.letterSpacing=="-30px") {
+		 		(document.querySelector("body").style.letterSpacing="120px")
 			}
-			else{ (document.querySelector("#cnt").style.letterSpacing="-30px")
+			else{ (document.querySelector("body").style.letterSpacing="-30px")
 			}
 			}, 600); 
 			}; 
 			function Pause_Allongé () { clearInterval(auto); 
 			} 
-			// to stop: Pause_Allongé ()
+			// setInterval("Allongé()", 600)
+			// clearInterval(26)
 
 			function Pirouette () {
-		    	var turn = document.getElementById("stage"),
-		    	deg = 10;
-		    	timing = setInterval(function() {
-		    	turn.style.transform = "rotateY(" + deg + "deg)";
-		    	deg = (deg + 10) % 360
-		    	}, 60); 
-		    	} 
+		    var turn = document.getElementById("stage"),
+		    deg = 10;
+		    timing = setInterval(function() {
+		    turn.style.transform = "rotateY(" + deg + "deg)";
+		    deg = (deg + 10) % 360
+		    }, 60); 
+		    } 
 			function Pause_Pirouette () { 
 				clearInterval(timing); 
 			} 
 
-			// define the stage:
-			// select 'search' iframe;
-			// document.querySelector("#rso");
-			// l = document.querySelectorAll("a");
-			// l[20];
-			// l[20].click();
+			// - - - - - - - - - - - - - - - - - - - - - - - - - //
+			// browser seems to complaint:
 
+			function Temps_Lié () {
+			// time linked
+				document.querySelector("html");
+				l = document.querySelectorAll("a");
+			}
 
-			function Danseuse_100 () {
+			function steps100 () {
 			// click one link;
 			l[100].click();
 			}
 
-			function Danseuse_20 () {
+			function steps20 () {
 			// click one link;
 			l[20].click();
 			}
 
-			function Temps_Lié () {
-			// time linked
-			}
+			// - - - - - - - - - - - - - - - - - - - - - - - - - //
 
 			function à_Terre () {
 			// 'on theground'; sroll to the bottom of the page (iframe 3500):
-			window.scrollTo(0,document.body.scrollHeight);
+			window.scrollTo(100,document.body.scrollHeight);
 			}
 
 			function Temps_Levé () {
@@ -152,25 +142,92 @@
   			document.documentElement.scrollTop = 0; // Chrome, Firefox, IE
 			}
 
+
+			var delay="10"; //how many seconds
+			var count='0';
+			var Texts=new Array();
+			Texts[0]="Welcome to en grand";
+			Texts[1]="pas de deux";
+			Texts[2]="coordinated, controlled movements.";
+			Texts[3]="In transition, into another movement";
+			Texts[4]="en face or facing directly the audience";
+			Texts[5]="the distance from, or position";
+			Texts[6]="continuously touching the floor";
+			Texts[7]="performed with fluidity and grace;";
+			Texts[8]="light movements or en l'air.";
+			Texts[9]="Coda: literally tail,";
+			Texts[10]="or concluding segment."
+
+			function Glossary_of_the_Nieuw_Ballet(){
+			        document.querySelector('#text01').innerHTML = Texts[count]; //or: #searchboxinput
+			        count++;
+			        if(count==Texts.length){count='0';}
+			        setTimeout("Glossary_of_the_Nieuw_Ballet()",delay*800);
+			} 
+
+			function Silence () {
+		 		document.querySelector("#text01").style.display="none";
+			}
+
+
+			// the Corps de Ballet
+			var window01;
+			var window02;
+			var window03;
+			var window04;
+			var window05;
+			var window06;
+			var window07;
+
+			function DancingWindow01 () { window01 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=1, width=420, height=470");}
+
+
+			function DancingWindow02 () { window02 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=800, width=420, height=470");}
+
+			function DancingWindow03 () { window03 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=900, width=420, height=470");}
+
+			function DancingWindow04 () { window04 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=600,left=1, width=420, height=470");}
+
+			function DancingWindow05 () { window05 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=800, width=420, height=470");}
+
+			function DancingWindow06 () { window06 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=400, width=220, height=270");}
+
+			function DancingWindow07 () { window07 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500, width=420, height=470");}
+
+    		function Finissage () {
+    			window01.close();
+    			window02.close();
+    			window03.close();
+    			window04.close();
+    			window05.close();
+    			window06.close();
+    			window07.close();
+			}
+
 			// go to a specific location (max iframe size 3500): 
 			// window.scroll(0, 500);
 			// document.getElementById("iframe").style.height= 5000;
 			// or document.querySelector("#mainstage").style.height= 5000;
 
-			function reEntrée_de_Ballet () {
-				location.reload(); 
-			}
-
-			function Offstage () {
+			function BlackOut () {
 		    //or document.querySelector("html").style.backgroundColor="black"; 
 		    //'unnecessary and balletic' movements   
 			document.body.innerHTML = '';
 			document.head.innerHTML = '';
+			document.querySelector("html").style.background="black";
 			}
 
+			function Offstage () {
+			open(location, '_self').close();
+			}
+
+
+			function reEntrée_de_Ballet () {
+				location.reload(); 
+			}
 // more concepts:  Attitude / Tombé / Bravura  / Pas de trois 
-
-
+			// fondu or 'melted.'
+			
 
 		</script>
 
@@ -178,6 +235,10 @@
 
         html {
             overflow: scroll;
+        }
+
+        iframe {
+        	background: transparent; 
         }
 
 			.Fluid {
@@ -199,9 +260,9 @@
 			}
 
 			.color {
-			animation: colorchange 50s infinite; 
-    		-webkit-animation: colorchange 50s infinite; 
- 			opacity: 0.3;
+			animation: colorchange 5s infinite; 
+    		-webkit-animation: colorchange 5s infinite; 
+ 			opacity: 0.1;
 			}
 
 			.nocolor {
@@ -213,17 +274,15 @@
 			@keyframes colorchange {
 		      0%   {background: #0000cc;}
 		      25%  {background: white;}
-		      50%  {background: pink;}
-		      75%  {background: #ffccff;}
-		      100% {background:   #99ccff;}
+		      50% {background:  #0000cc;}
+		      100% {background:   white;}
 		    }
 
 			@-webkit-keyframes colorchange {
 		      0%   {background: #0000cc;}
 		      25%  {background: white;}
-		      50%  {background: pink;}
-		      75%  {background: #ffccff;}
-		      100% {background:  #99ccff;}
+		      50% {background:  #0000cc;}
+		      100% {background:   white;}
 		    } 
 
 			@keyframes Slow {
@@ -264,11 +323,12 @@
 
 			#text01{
 			position: absolute;	
-		    display: none; 	
-		    top: 1px;
-		    left: 1px; 
+		    display: initial; 	
+		    top: 0px;
+		    left: 0px; 
 		    font-weight: bold;
-		    font-size:35vw;
+		    font-size:22vw;
+		    line-height: 18vw;
 		    margin-top: 0px;
 		    font-family: serif;      
 		    text-shadow: 2px 2px 20px #000000;
@@ -295,32 +355,7 @@
     >
 	</iframe>  
 </div> 
-<p id="text01" class="objectBreathe">Breathing</p>
+<p id="text01" class="objectBreathe"></p>
 
-<script type="text/javascript">
-var delay="10"; //how many seconds
-var count='0';
-var Texts=new Array();
-Texts[0]="Welcome to en grand";
-Texts[1]="pas de deux";
-Texts[2]="coordinated";
-Texts[3]="in transition";
-Texts[4]="into another movement";
-Texts[5]="or position.";
-Texts[6]="Continuously";
-Texts[7]="touching the floor";
-Texts[8]="or en l'air.";
-Texts[9]="Coda: literally tail,";
-Texts[10]="or concluding segment."
-
-function Glossary_of_the_Nieuw_Ballet(){
-        document.querySelector('#text01').innerHTML = Texts[count]; //or: #searchboxinput
-        count++;
-        if(count==Texts.length){count='0';}
-        setTimeout("Glossary_of_the_Nieuw_Ballet()",delay*800);
-} 
-// Glossary_of_the_Nieuw_Ballet()
-// setInterval("Glossary_of_the_Nieuw_Ballet()",1200)
-</script>
 </body>
 </html>
