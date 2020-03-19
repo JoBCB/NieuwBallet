@@ -47,6 +47,11 @@
 > __Pause_Pirouette ()__ — > stops rotation;
 
 > __Glossary_of_the_Nieuw_Ballet ()__ — > overlays text, to stop call the function __Silence ()__ 
+    Texts[0]="Type Something here";
+    Texts[1]="More here";
+    Texts[2]="More more";
+    Texts[3]="And more";
+    Texts[4]="Last phrase";
 
 * Open different pop-ups: __DancingWindow01 ()__ — > there are 7;
 
