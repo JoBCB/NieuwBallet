@@ -174,6 +174,7 @@
 
 
 			// the Corps de Ballet
+			var windowAll;
 			var window01;
 			var window02;
 			var window03;
@@ -181,6 +182,12 @@
 			var window05;
 			var window06;
 			var window07;
+
+			var random_X = Math.floor(Math.random() * 2500);
+			var random_Y = Math.floor(Math.random() * 2500);
+
+			function DancingWindow () { windowAll = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=random_X,left=random_Y, width=420, height=470");
+			// windowAll.moveTo(random_X, random_Y);}
 
 			function DancingWindow01 () { window01 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=1, width=420, height=470");}
 
@@ -348,7 +355,7 @@
     class="regular"
     title="example"
     width="100%"
-    height="2000"
+    height="1900"
     frameborder="0"
     scrolling="yes"
     margin="0"
