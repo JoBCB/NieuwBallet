@@ -133,7 +133,10 @@
 
 			function à_Terre () {
 			// 'on theground'; sroll to the bottom of the page (iframe 3500):
-			window.scrollTo(100,document.body.scrollHeight);
+			// window.scrollTo(100,document.body.scrollHeight);
+
+			var element = document.querySelector("body");
+			element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 			}
 
 			function Temps_Levé () {
@@ -345,7 +348,7 @@
     class="regular"
     title="example"
     width="100%"
-    height="3500"
+    height="2000"
     frameborder="0"
     scrolling="yes"
     margin="0"
