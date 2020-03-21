@@ -52,10 +52,25 @@
 			// derrière — literally 'behind'
 		 		(document.querySelector("#text01").style.display="none")
 			}
-			
-        	function Breathe_In () { 
-        		document.querySelector("body").style.transform="scale(4)"
-        	}
+			// https://stackoverflow.com/questions/19094301/changing-page-scale-via-javascript
+
+			function Breathe_In () {
+			document.body.style.transform = 'scale(' + window.screen.availHeight/2000 + ')';
+			document.body.style['-o-transform'] = 'scale(' + window.screen.availHeight/2000 + ')';
+			document.body.style['-webkit-transform'] = 'scale(' + window.screen.availHeight/2000 + ')';
+			document.body.style['-moz-transform'] = 'scale(' + window.screen.availHeight/2000 + ')';
+			}
+
+        	// function Breathe_In () { 
+        	// 	document.querySelector("body").style.transform="scale(4)"
+        	// }
+
+			// x = document.querySelector("body");
+   			// x.style.transform="scale(2)"
+
+   			// function Breathe_In (x) {
+  			// x.style.transform = parseInt(x.style.transform) * 2 + '%'
+			// };
 
     		function Breathe_Out () { 
     			document.querySelector("body").style.transform="scale(1)"
@@ -149,17 +164,11 @@
 			var delay="10"; //how many seconds
 			var count='0';
 			var Texts=new Array();
-			Texts[0]="Welcome to en grand";
-			Texts[1]="pas de deux";
-			Texts[2]="coordinated, controlled movements.";
-			Texts[3]="In transition, into another movement";
-			Texts[4]="en face or facing directly the audience";
-			Texts[5]="the distance from, or position";
-			Texts[6]="continuously touching the floor";
-			Texts[7]="performed with fluidity and grace;";
-			Texts[8]="light movements or en l'air.";
-			Texts[9]="Coda: literally tail,";
-			Texts[10]="or concluding segment."
+			Texts[0]="Welcome to the Rite";
+			Texts[1]="and a series of coordinated, controlled movements";
+			Texts[2]="performed with fluidity and grace;";
+			Texts[3]="in transition, into other movements,";
+			Texts[4]="until the concluding segment."
 
 			function Glossary_of_the_Nieuw_Ballet(){
 			        document.querySelector('#text01').innerHTML = Texts[count]; //or: #searchboxinput
@@ -174,7 +183,7 @@
 
 
 			// the Corps de Ballet
-			var windowAll;
+			//var windowAll;
 			var window01;
 			var window02;
 			var window03;
@@ -183,14 +192,41 @@
 			var window06;
 			var window07;
 
+			// https://stackoverflow.com/questions/1220251/close-all-popup-windows-with-javascript
+
+			var windowAll = new Array();
+
+			function DancingWindow(url, params) { 
+
+			windowAll[windowAll.length] = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes, width=420, height=470");
+
+			// 	function secondMove() {
+			// 		for (var loop=0; loop<windowAll.length; loop++) {
+			// 		windowAll[loop].moveTo(Math.floor(Math.random() * 2500), Math.floor(Math.random() * 500));
+			// 		}
+			// }   secondMove()
+			}
+
+			function NoDance(url, params) {
+			    for (var loop=0; loop<windowAll.length; loop++) 
+			    {
+			        if (!windowAll[loop].closed)
+			        {
+			            windowAll[loop].close();
+			        }
+			    }
+			}
+
 			var random_X = Math.floor(Math.random() * 2500);
 			var random_Y = Math.floor(Math.random() * 2500);
 
-			function DancingWindow () { windowAll = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=random_X,left=random_Y, width=420, height=470");
-			// windowAll.moveTo(random_X, random_Y);}
+			// function DancingWindow () { 
+			// windowAll = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes, width=420, height=470");
+			// windowAll.moveTo(Math.floor(Math.random() * 2500), Math.floor(Math.random() * 500));
+			// }
+			
 
 			function DancingWindow01 () { window01 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=1, width=420, height=470");}
-
 
 			function DancingWindow02 () { window02 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=800, width=420, height=470");}
 
@@ -205,13 +241,14 @@
 			function DancingWindow07 () { window07 = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500, width=420, height=470");}
 
     		function Finissage () {
-    			window01.close();
-    			window02.close();
-    			window03.close();
-    			window04.close();
-    			window05.close();
-    			window06.close();
-    			window07.close();
+    			windowAll.close()
+    			// window01.close();
+    			// window02.close();
+    			// window03.close();
+    			// window04.close();
+    			// window05.close();
+    			// window06.close();
+    			// window07.close();
 			}
 
 			// go to a specific location (max iframe size 3500): 
@@ -363,7 +400,7 @@
     marginwidth="0"
     src="https://www.google.com/"
     >
-	</iframe>  
+    </iframe>  
 </div> 
 <p id="text01" class="objectBreathe"></p>
 
