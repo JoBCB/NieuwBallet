@@ -160,6 +160,22 @@
   			document.documentElement.scrollTop = 0; // Chrome, Firefox, IE
 			}
 
+			function Step1 () { window.scrollBy(0,50)  }
+			function Step2 () { window.scrollBy(0,-50)  }
+			function Step3 () { window.scrollBy(0,100)  }
+			function Step4 () { window.scrollBy(0,-100)  }
+			function Step5 () { window.scrollBy(0,150)  }
+			function Step6 () { window.scrollBy(0,-150)  }
+			function Step7 () { window.scrollBy(0,200)  }
+			function Step8 () { window.scrollBy(0,-200)  }
+			function Step9 () { window.scrollBy(0,250)  }
+			function Step10 () { window.scrollBy(0,-250)  }
+			function Step11 () { window.scrollBy(0,300)  }
+			function Step12 () { window.scrollBy(0,-300)  }
+			function Step13 () { window.scrollBy(0,400)  }
+			function Step14 () { window.scrollBy(0,-400)  }
+			function Step15 () { window.scrollBy(0,500)  }
+			function Step16 () { window.scrollBy(0,-500)  }
 
 			var delay="10"; //how many seconds
 			var count='0';
@@ -200,12 +216,9 @@
 
 			windowAll[windowAll.length] = window.open("https://youtu.be/yJd05A297us?t=75", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes, width=420, height=470");
 
-			// 	function secondMove() {
-			// 		for (var loop=0; loop<windowAll.length; loop++) {
-			// 		windowAll[loop].moveTo(Math.floor(Math.random() * 2500), Math.floor(Math.random() * 500));
-			// 		}
-			// }   secondMove()
 			}
+
+			// 	windowAll.moveTo(Math.floor(Math.random() * 2500), Math.floor(Math.random() * 500));
 
 			function NoDance(url, params) {
 			    for (var loop=0; loop<windowAll.length; loop++) 
@@ -400,7 +413,7 @@
     marginwidth="0"
     src="https://www.google.com/"
     >
-    </iframe>  
+	</iframe>  
 </div> 
 <p id="text01" class="objectBreathe"></p>
 
