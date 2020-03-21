@@ -27,12 +27,14 @@
 
 * Tab through the search results: until select "News"
 
+>  __Step1 ()__ —> odd numbers scroll down (up until 15) + __Step2 ()__ —> even numbers scroll up (up until 16)
+
 > __à_Terre ()__ —> it will scroll down
 
 > __Temps_Levé ()__ —> it will scroll up
 
-> __Breathe_In ()__ followed by __Breathe_Out ()__
-  > _sound_ arising tension; 
+> __Breathe (+100)__ —> zooms in or __Breathe (-100)__ —> zooms out;
+  > _sound_ arising tension;  
 
 * Select a link by using "tab" and "enter"
 
@@ -53,7 +55,7 @@
     Texts[3]="And more";
     Texts[4]="Last phrase";
 
-* Open different pop-ups: __DancingWindow01 ()__ — > there are 7;
+* Open pop-ups with youtube video: __DancingWindow ()__  + __NoDance()__ —> closes all window pop ups;
 
 ## Possible ending functions: 
 
