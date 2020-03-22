@@ -1,5 +1,24 @@
 ## Set-by-step: 
 
+## - Prepare webserver - ##
+
+The html and javascript works better if they run from a web server rather
+than opening the html-file directly in chrome. You can use python to quickly
+set up a quick webserver. Open a terminal window and `cd` into the directory
+with the html-file. For python 3:
+
+```bash
+python3 -m http.server
+```
+
+For python 2
+
+```bash
+python -m SimpleHTTPServer 8000
+```
+
+Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
+
 ## — Prepare browser chrome —
 
 * Go to chrome settings > privacy and security or to the url chrome://settings/privacy :
