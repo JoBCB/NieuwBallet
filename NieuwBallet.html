@@ -64,21 +64,20 @@
 			// Breathe (+100);
 
 
-        	function Breathe_In () { 
-        	 	document.querySelector("body").style.transform="scale(4)"
-        	 }
-
-			// x = document.querySelector("body");
-   			// x.style.transform="scale(2)"
-
-   			// function Breathe_In (x) {
-  			// x.style.transform = parseInt(x.style.transform) * 2 + '%'
-			// };
-
-    		function Breathe_Out () { 
-    	 	document.querySelector("body").style.transform="scale(1)"
-      		};
+			var currentScale = 1;
 		
+		// big numbers from 1-5
+        	function Breathe_In (paramvar) { 
+        		currentScale = paramvar;
+        	 	document.querySelector("body").style.transform="scale(" + currentScale + ")";
+        	}
+
+		// small numbers from 0-1
+        	function Breathe_Out (paramvar) { 
+        		currentScale = paramvar;
+        	 	document.querySelector("body").style.transform="scale(" + currentScale + ")";
+        	}
+
 
 			function Arrière (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
