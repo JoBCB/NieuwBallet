@@ -86,6 +86,8 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
 
 > __BlackOut ()__ — > turns background black;
 
+> // Finissage — > print a message in the webconsole 
+
 > __Finissage ()__  — > closes current window;
 
 > or hit "cmd Q" — > quits all chrome browser windows open;
