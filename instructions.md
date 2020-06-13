@@ -76,11 +76,11 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
     Texts[3]="And more";
     Texts[4]="Last phrase";
 
-* Open pop-ups with youtube video: __DancingWindow ()__  + __NoDance()__ —> closes all window pop ups;
+* Open pop-ups with youtube video: __DancingWindow ()__  
+
+* Closes all window pop ups: __NoDance()__ 
 
 ## Possible ending functions: 
-
-> __Finissage ()__ — > closes all pop-up windows;
 
 > __BlackOut ()__ — > turns background black;
 
