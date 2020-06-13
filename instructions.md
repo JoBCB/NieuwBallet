@@ -35,7 +35,9 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
 
 * Open "NieuwBallet.html" on chrome:
 
-* On the top menu bar go to: View > Developer > Developer Tools or open web console: Command+Shift+C or Command+Option+C (mac)	Control+Shift+C (windows/linux)
+* On the top menu bar go to: View > Developer > Developer Tools 
+
+* or open web console: shortcut Option + ⌘ + J (on macOS) or Control+Shift+C (windows/linux)
 
 * keep the console in a sepparate window —> right side of the screen;
 
