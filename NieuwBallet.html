@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en" xml:lang="en">
+<head>
+  		<meta charset="utf-8">
         <title>Nieuw Ballet</title>
   		<meta name="description" content="a JS extension for CodeKlavier: live coding with the piano as interface.">
   		<meta name="keywords" content="HTML,JavaScript,LiveCoding,Performance,Web,Choreography">
   		<meta name="author" content="Joana Chicau">
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- search queries: 
 	(a body still is taking up just) as much space and time as a body moving - Cunningham.
@@ -63,21 +66,26 @@
 					}
 			// Breathe (+100);
 
-
 			var currentScale = 1;
-		
-		// big numbers from 1-5
+
         	function Breathe_In (paramvar) { 
         		currentScale = paramvar;
         	 	document.querySelector("body").style.transform="scale(" + currentScale + ")";
         	}
 
-		// small numbers from 0-1
         	function Breathe_Out (paramvar) { 
         		currentScale = paramvar;
         	 	document.querySelector("body").style.transform="scale(" + currentScale + ")";
         	}
 
+        	// function Breathe_In () { 
+        	// 	document.querySelector("body").style.transform="scale(4)"
+        	// }
+
+    		// function Breathe_Out () { 
+    		// 	document.querySelector("body").style.transform="scale(1)"
+      		// };
+		
 
 			function Arrière (){
 			// meaning'backwards'— a movement towards the back,as opposed to en avant
@@ -202,13 +210,13 @@
 
 			// the Corps de Ballet
 			//var windowAll;
-			var window01;
-			var window02;
-			var window03;
-			var window04;
-			var window05;
-			var window06;
-			var window07;
+			// var window01;
+			// var window02;
+			// var window03;
+			// var window04;
+			// var window05;
+			// var window06;
+			// var window07;
 
 			// https://stackoverflow.com/questions/1220251/close-all-popup-windows-with-javascript
 
@@ -245,23 +253,22 @@
 			// }
 			
 
-			function DancingWindow01 () { window01 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=1, width=420, height=470");}
+			// function DancingWindow01 () { window01 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=1, width=420, height=470");}
 
-			function DancingWindow02 () { window02 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=800, width=420, height=470");}
+			// function DancingWindow02 () { window02 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=800, width=420, height=470");}
 
-			function DancingWindow03 () { window03 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=900, width=420, height=470");}
+			// function DancingWindow03 () { window03 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=900, width=420, height=470");}
 
-			function DancingWindow04 () { window04 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=600,left=1, width=420, height=470");}
+			// function DancingWindow04 () { window04 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=600,left=1, width=420, height=470");}
 
-			function DancingWindow05 () { window05 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=800, width=420, height=470");}
+			// function DancingWindow05 () { window05 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=1,left=800, width=420, height=470");}
 
-			function DancingWindow06 () { window06 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=400, width=220, height=270");}
+			// function DancingWindow06 () { window06 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=800,left=400, width=220, height=270");}
 
-			function DancingWindow07 () { window07 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500, width=420, height=470");}
-		
-		
-    		function Finissage () {
-    			windowAll.close()
+			// function DancingWindow07 () { window07 = window.open("https://www.youtube.com/watch?v=d6d8wacBjPQ", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=500, width=420, height=470");}
+
+    		// function Finissage () {
+    		// 	windowAll.close()
     			// window01.close();
     			// window02.close();
     			// window03.close();
@@ -269,7 +276,7 @@
     			// window05.close();
     			// window06.close();
     			// window07.close();
-			}
+			// }
 
 			// go to a specific location (max iframe size 3500): 
 			// window.scroll(0, 500);
@@ -284,7 +291,7 @@
 			document.querySelector("html").style.background="black";
 			}
 
-			function Offstage () {
+			function Finissage () {
 			open(location, '_self').close();
 			}
 
@@ -292,7 +299,8 @@
 			function reEntrée_de_Ballet () {
 				location.reload(); 
 			}
-// more concepts:  Attitude / Tombé / Bravura  / Pas de trois 
+
+// more concepts: Attitude / Tombé / Bravura / Pas de trois 
 			// fondu or 'melted.'
 			
 
@@ -307,10 +315,10 @@
         iframe {
         	background: transparent; 
         }
-	body {
+
+        body {
         	filter: grayscale(100%);
         }
-
 			.Fluid {
 			animation: Slow 30s infinite; 
     		-webkit-animation: Slow 30s infinite; 
