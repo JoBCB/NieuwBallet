@@ -56,8 +56,10 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
 
 > __Temps_Levé ()__ —> it will scroll up
 
-> __Breathe (+100)__ —> zooms in or __Breathe (-100)__ —> zooms out;
-  > _sound_ arising tension;  
+> __Breathe_In (+10)__ —> zooms in; __Breathe_Out (0.5)__ —> zooms out; __Breathe_Out (1) and Breathe_In (1)__ —> goes back to the same;
+  > _sound_ arising tension;
+  
+> __Breathe_In (-1)__ —> turns upside down;
 
 * Select a link by using "tab" and "enter"
 
