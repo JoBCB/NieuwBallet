@@ -77,6 +77,20 @@
         		currentScale = paramvar;
         	 	document.querySelector("body").style.transform="scale(" + currentScale + ")";
         	}
+		
+		function Breathing() {
+		    var zooming = document.querySelector("body");
+			currentScale = 1;
+		    currenttime = setInterval(function() {
+        	zooming.style.transform="scale(" + currentScale + ")";
+			currentScale = Math.random() * 5
+        	}, 260); 
+		    } 
+
+		function No_Breathing() { 
+			clearInterval(currenttime); 
+		} 
+
 
         	// function Breathe_In () { 
         	// 	document.querySelector("body").style.transform="scale(4)"
