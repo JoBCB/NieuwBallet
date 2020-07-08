@@ -61,11 +61,17 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
   
 > __Breathe_In (-1)__ —> turns upside down;
 
+> __Breathing()__ —> automated zooming function;
+
+* Ends with auto zooming function: __No_Breathing()__  
+
+
 * Select a link by using "tab" and "enter"
 
 > __Arrière ()__ — > goes back in search history
 
 > __Avant ()__ — > goes forward in search history
+
 
 * Inside a webpage you can:
 
