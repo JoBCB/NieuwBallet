@@ -50,7 +50,13 @@ Open chrome and goto <http://localhost:8000/NieuwBallet.html> and have fun.
 
 * Tab through the search results: until select "News"
 
->  __Step1 ()__ —> odd numbers scroll down (up until 15) + __Step2 ()__ —> even numbers scroll up (up until 16)
+>  __Step1 ()__ —> odd numbers scroll down (up until 15) 
+>  __Step2 ()__ —> even numbers scroll up (up until 16)
+
+_revised:_
+>  __Step1 ()__
+>  __Step3 ()__
+>  __Step4 ()__
 
 > __à_Terre ()__ —> it will scroll down
 
